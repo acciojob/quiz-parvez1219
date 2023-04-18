@@ -60,7 +60,7 @@ function loadQuestion() {
 
 // Function to get selected answer and check if it's correct
 function getSelectedOption() {
-  const options = document.getElementsByName('option');
+  const options = document.getElementsByName('answer');
   let selectedOption = null;
   options.forEach((option) => {
     if (option.checked) {
